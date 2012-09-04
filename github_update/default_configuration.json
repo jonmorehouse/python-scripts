@@ -1,0 +1,48 @@
+{
+	"projects": [
+
+		{
+			"project_name": "python_scripts",
+
+			"source": "/Users/DefaultPassword/Documents/general_development/helper_programs/python",
+
+			"destination": "/Users/DefaultPassword/Documents/github/python_scripts",
+
+			"banned_files": [],
+
+
+			"banned_directories": ["archives"],
+
+
+			"credentials": [
+
+				{"value": "DefaultPassword@gmail.com", "replacement": "Default_Email"}
+
+			],
+
+
+			"github_backup" : true,
+
+			"clean_files": true,
+
+
+			"github": {
+				
+
+				"repo": "this is the github repository -- the github repository -- JUST A NAME",
+
+				"path": "/Users/DefaultPassword/Documents/github/python_scripts",
+
+				"message": "Default commit message for local storage"
+			}
+		}
+	],
+
+
+	"credentials": [
+
+		{"value": "[t,T]rojans2013", "replacement": "Default Password"},
+		{"value": "[m,M]oeller12", "replacement": "Default Password"},
+		{"value": "[m,M]orehouse[j,J]09", "replacement": "Default Password"}
+	]
+}
