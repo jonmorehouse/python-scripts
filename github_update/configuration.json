@@ -31,7 +31,40 @@
 
 				"message": "Default commit message for local storage"
 			}
+		},
+
+		{
+			"project_name": "ripitupworld",
+
+			"source": "/Users/DefaultPassword/Documents/production_development/rip_it_up_world/current",
+
+			"destination": "/Users/DefaultPassword/Documents/github/rip_it_up_world",
+
+			"banned_files": [],
+
+			"banned_directories": ["archives"],
+
+			"credentials": [
+
+				{"value": "DefaultPassword@gmail.com", "replacement": "Default_Email"}
+
+			],
+
+			"github_backup" : true,
+
+			"clean_files": true,
+
+
+			"github": {
+				
+				"repo": "rip_it_up_world",
+
+				"path": "/Users/DefaultPassword/Documents/github/rip_it_up_world",
+
+				"message": "Default commit message for local storage"
+			}
 		}
+
 
 
 	],
