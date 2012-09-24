@@ -63,8 +63,9 @@ class Javascript(compression.Compression):#this is an object that is responsible
 			whole_list = [site_wide, utilities, modules, pages, other]
 			
 			for _list in whole_list:
+
 				ordered_files.extend(_list)
-					
+	
 			return ordered_files
 					
 				

@@ -4,7 +4,7 @@
 import classes.github
 
 configuration = dict()
-configuration['path'] = "/Users/DefaultPassword/Documents/github/prospero"
+configuration['path'] = "/Users/MorehouseJ09/Documents/github/prospero"
 configuration['message'] = "test message"
 configuration['repo'] = "Prospero"
 

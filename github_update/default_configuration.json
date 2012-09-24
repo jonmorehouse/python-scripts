@@ -4,9 +4,9 @@
 		{
 			"project_name": "python_scripts",
 
-			"source": "/Users/DefaultPassword/Documents/general_development/helper_programs/python",
+			"source": "/Users/MorehouseJ09/Documents/general_development/helper_programs/python",
 
-			"destination": "/Users/DefaultPassword/Documents/github/python_scripts",
+			"destination": "/Users/MorehouseJ09/Documents/github/python_scripts",
 
 			"banned_files": [],
 
@@ -16,7 +16,7 @@
 
 			"credentials": [
 
-				{"value": "DefaultPassword@gmail.com", "replacement": "Default_Email"}
+				{"value": "morehousej09@gmail.com", "replacement": "Default_Email"}
 
 			],
 
@@ -31,7 +31,7 @@
 
 				"repo": "this is the github repository -- the github repository -- JUST A NAME",
 
-				"path": "/Users/DefaultPassword/Documents/github/python_scripts",
+				"path": "/Users/MorehouseJ09/Documents/github/python_scripts",
 
 				"message": "Default commit message for local storage"
 			}

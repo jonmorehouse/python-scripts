@@ -4,9 +4,9 @@
 		{
 			"project_name": "python_scripts",
 
-			"source": "/Users/DefaultPassword/Documents/general_development/helper_programs/python",
+			"source": "/Users/MorehouseJ09/Documents/general_development/helper_programs/python",
 
-			"destination": "/Users/DefaultPassword/Documents/github/python_scripts",
+			"destination": "/Users/MorehouseJ09/Documents/github/python_scripts",
 
 			"banned_files": [],
 
@@ -14,7 +14,7 @@
 
 			"credentials": [
 
-				{"value": "DefaultPassword@gmail.com", "replacement": "Default_Email"}
+				{"value": "morehousej09@gmail.com", "replacement": "Default_Email"}
 
 			],
 
@@ -27,7 +27,7 @@
 				
 				"repo": "python_scripts",
 
-				"path": "/Users/DefaultPassword/Documents/github/python_scripts",
+				"path": "/Users/MorehouseJ09/Documents/github/python_scripts",
 
 				"message": "Default commit message for local storage"
 			}
@@ -36,9 +36,9 @@
 		{
 			"project_name": "ripitupworld",
 
-			"source": "/Users/DefaultPassword/Documents/production_development/rip_it_up_world/current",
+			"source": "/Users/MorehouseJ09/Documents/production_development/rip_it_up_world/current",
 
-			"destination": "/Users/DefaultPassword/Documents/github/rip_it_up_world",
+			"destination": "/Users/MorehouseJ09/Documents/github/rip_it_up_world",
 
 			"banned_files": [],
 
@@ -46,7 +46,7 @@
 
 			"credentials": [
 
-				{"value": "DefaultPassword@gmail.com", "replacement": "Default_Email"}
+				{"value": "morehousej09@gmail.com", "replacement": "Default_Email"}
 
 			],
 
@@ -59,7 +59,7 @@
 				
 				"repo": "rip_it_up_world",
 
-				"path": "/Users/DefaultPassword/Documents/github/rip_it_up_world",
+				"path": "/Users/MorehouseJ09/Documents/github/rip_it_up_world",
 
 				"message": "Default commit message for local storage"
 			}

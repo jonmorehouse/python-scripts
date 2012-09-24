@@ -45,7 +45,7 @@ class Dotcloud(object):
 		command = "cd %s && dotcloud run %s.db \"mysql -u%s -p%s %s < data.sql\"" % (self.configuration.dotcloud_directory, self.configuration.dotcloud_name, self.configuration.username, self.configuration.password, self.configuration.remote_database)
 
 		commands.getoutput(command)
-		# dotcloud run ripitupworld.db "mysql -uDefaultPassword -pDefaultPassword rip_it_up_world < data.sql"
+		# dotcloud run ripitupworld.db "mysql -uMorehouseJ09 -pMoeller12 rip_it_up_world < data.sql"
 
 	def sync_dotcloud(self):
 

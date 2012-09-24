@@ -6,7 +6,7 @@ import json, os
 # EACH PROJECT EXTENDS GITHUB_UPDATE WHICH IS RESPONSIBLE FOR RUNNING THESE COMMANDS
 # ALL PROJECTS ARE WITHOUT THE TRAILING SLASH
 
-configuration_file = "/Users/DefaultPassword/Documents/general_development/helper_programs/python/github_update/configuration.json"
+configuration_file = "/Users/MorehouseJ09/Documents/general_development/helper_programs/python/github_update/configuration.json"
 
 with open(configuration_file) as configuration:
     configuration = json.load(configuration)

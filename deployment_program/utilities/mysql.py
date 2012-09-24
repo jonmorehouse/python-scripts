@@ -7,8 +7,8 @@ class Mysql(object):
 	
 	# CONFIG DATA
 	host = "localhost"
-	username = "DefaultPassword"
-	password = "DefaultPassword"
+	username = "MorehouseJ09"
+	password = "Moeller12"
 	port = False
 	con = None
 	

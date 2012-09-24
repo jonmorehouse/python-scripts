@@ -7,8 +7,7 @@ import os, commands
 def combine(output_file, input_files):
 	# ASSUMES THE INPUT FILES ARE FULL PATHS
 	# WILL CHECK FOR THE EXISTISTENCE OF EACH ONE
-	
-	print "testing123"
+
 	command = "cat "
 	for input_file in input_files:
 		
@@ -28,8 +27,8 @@ def compress(input_file):
 	compress = "yuicompressor %s > %s" % (input_file, tmp_file)
 	move = "mv %s %s" % (tmp_file, input_file)
 		
-	commands.getstatusoutput(compress)
-	commands.getstatusoutput(move)
+	# commands.getstatusoutput(compress)
+	# commands.getstatusoutput(move)
 
 		
 # make a directory for the temporary files, then compile all files into the directory, and then combine all the files

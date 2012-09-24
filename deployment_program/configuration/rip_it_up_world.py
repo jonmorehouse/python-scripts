@@ -12,29 +12,29 @@ class Rip_it_up_world(Configuration):
 
 	static_url = 's3://rip_it_up_world/static/'
 	static_type = 'amazon'
-	static_directory = '/Users/DefaultPassword/Documents/production_development/rip_it_up_world/current/static/'
+	static_directory = '/Users/MorehouseJ09/Documents/production_development/rip_it_up_world/current/static/'
 	
 	media_url = 's3://rip_it_up_world/media/'
 	media_type = 'amazon'
-	media_directory = '/Users/DefaultPassword/Documents/production_development/rip_it_up_world/media/'
+	media_directory = '/Users/MorehouseJ09/Documents/production_development/rip_it_up_world/media/'
 	
-	site_url = 'http://ripitupworld-DefaultPassword.dotcloud.com/'
-	site_directory = '/Users/DefaultPassword/Documents/production_development/rip_it_up_world/current/'
+	site_url = 'http://ripitupworld-morehousej09.dotcloud.com/'
+	site_directory = '/Users/MorehouseJ09/Documents/production_development/rip_it_up_world/current/'
 	server = 'dotcloud'
 		
 	local_database = 'rip_it_up_world'
 	remote_database = 'rip_it_up_world'
 	
-	local_archive = '/Users/DefaultPassword/Documents/production_development/rip_it_up_world/archive/' #local archive -- assuming 
+	local_archive = '/Users/MorehouseJ09/Documents/production_development/rip_it_up_world/archive/' #local archive -- assuming 
 	live_archive = 's3://rip_it_up_world/archive/'
 
-	username = 'DefaultPassword'
-	password = 'DefaultPassword'
+	username = 'MorehouseJ09'
+	password = 'Moeller12'
 	
 	site_status = False
 	project_name = "RipItUpWorld"
 
-	dotcloud_directory = '/Users/DefaultPassword/Documents/production_development/rip_it_up_world/dotcloud/'
+	dotcloud_directory = '/Users/MorehouseJ09/Documents/production_development/rip_it_up_world/dotcloud/'
 	dotcloud_name = "ripitupworld"
 
 	
@@ -48,7 +48,7 @@ class Rip_it_up_world(Configuration):
 		
 		# will be responsible for copying files over and then pushing to dotcloud as well as pushing the new database live
 
-		self.dotcloud(dump_file_name) #will push any files and will then upload any database dumps and will download the live database dumps
+		# self.dotcloud(dump_file_name) #will push any files and will then upload any database dumps and will download the live database dumps
 
 		self.amazon() #run the amazon section -- updates amazon s3 server after we have downloaded everything
 
@@ -58,7 +58,7 @@ class Rip_it_up_world(Configuration):
 			
 	def amazon(self):
 		# this section is responsible for backing up the different folders to the correct locations for amazon deployment
-
+		print "Now updating amazon s3 with static files and data backups for %s" % self.project_name
 		backups = dict()
 
 		# backup any media items that could be needed
@@ -95,7 +95,7 @@ class Rip_it_up_world(Configuration):
 		# download live website dumps 
 		backups['live_dumps'] = dict()
 		backups['live_dumps']['source'] = self.amazon_url + "archives/live_dumps/"
-		backups['live_dumps']['destination'] = "/Users/DefaultPassword/Documents/production_development/rip_it_up_world/live_data/"
+		backups['live_dumps']['destination'] = "/Users/MorehouseJ09/Documents/production_development/rip_it_up_world/live_data/"
 		backups['live_dumps']['public'] = False
 
 
