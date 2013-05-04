@@ -3,9 +3,6 @@
 # create a fibonacci lambda
 fibonacci = lambda previous, current: previous + current if previous + current > 0 else 1
 
-# prime number printer etc
-# prime = lambda 
-
 
 # controller is useful for printing out valid information for the actual callback / lambda etc
 def controller(previous, current, counter, callback):
