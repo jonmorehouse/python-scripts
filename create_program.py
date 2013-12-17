@@ -66,4 +66,3 @@ else:
 	else: program_type = sys.argv[2]
 
 	create_program(file_name, program_type)
-	subprocess.call(["subl", "-n", file_name])
